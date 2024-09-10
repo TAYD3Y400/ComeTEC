@@ -1,0 +1,28 @@
+
+/* Estilos personalizados para las alertas de SweetAlert2 */
+.swal2-popup {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.swal2-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.swal2-content {
+    font-size: 16px;
+}
+
+.swal2-confirm {
+    padding: 10px 20px;
+    background-color: #4878ff;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.swal2-confirm:hover {
+    background-color: #3355ff;
+}

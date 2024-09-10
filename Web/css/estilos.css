@@ -1,0 +1,404 @@
+body {
+    margin: 0; /* Eliminar el margen predeterminado del cuerpo */
+    font-family: Arial, sans-serif; /* Establecer la fuente para todo el documento */
+    background-color: #ffffff; /* Color de fondo de la página */
+}
+
+header {
+    background-color: rgb(255, 255, 255); /* Color de fondo del encabezado */
+    color: rgb(10, 7, 7); /* Color del texto del encabezado */
+    padding: 20px; /* Espacio alrededor del encabezado */
+    display: flex; /* Establecer el diseño de la caja del encabezado en un modelo de caja flexible */
+    align-items: center; /* Centrar verticalmente los elementos dentro de la caja del encabezado */
+}
+
+img {
+    height: 50px; /* Establecer la altura de la imagen del logo */
+    margin-right: 10px; /* Espacio entre el logo y el título del encabezado */
+}
+
+main {
+    position: relative; /* Establecer la posición relativa para el div */
+    max-width: 100%;
+	margin: 20px;
+    background-color: rgb(218, 218, 218); /* Color de fondo del contenido principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agregar sombra a la caja del contenido principal */
+    border-radius: 5px; /* Agregar bordes redondeados a la caja del contenido principal */
+}
+
+footer {
+    background-color: rgb(255, 255, 255); /* Color de fondo del encabezado */
+    color: rgb(10, 7, 7); /* Color del texto del encabezado */
+    padding: 20px; /* Espacio alrededor del encabezado */
+    display: flex; /* Establecer el diseño de la caja del encabezado en un modelo de caja flexible */
+    align-items: center; /* Centrar verticalmente los elementos dentro de la caja del encabezado */
+    padding-bottom: 0.1px;
+    position: relative;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contenedor {
+    position: relative; /* Establecer la posición relativa para el div */
+	left: 170px; /* Mover el div 100 píxeles a la derecha */
+    width: 1160px;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agregar sombra a la caja del contenido principal */
+    border-radius: 20px; /* Agregar bordes redondeados a la caja del contenido principal */
+ 
+}
+
+.login {
+    
+    position: relative; /* Establecer la posición relativa para el div */
+	left: 800px; /* Mover el div 100 píxeles a la derecha */
+    top: 90px; 
+    width: 170px;
+    height: 190px;
+    padding: 10px; /* Espacio alrededor del contenido principal */
+    background-color: rgb(222, 221, 221);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Agregar sombra a la caja del contenido principal */
+    border-radius: 4px; /* Agregar bordes redondeados a la caja del contenido principal */
+ 
+}
+
+input[type="text"], input[type="password"], input[type="submit"] {
+    display: block; /* Convertir los campos de entrada y el botón de enviar en elementos de bloque para que se muestren uno debajo del otro */
+    width: 95%; /* Ancho completo para los campos de entrada y el botón de enviar */
+    margin-bottom: 20px; /* Espacio entre los campos de entrada y el botón de enviar */
+    border: none; /* Eliminar el borde de los campos de entrada y el botón de enviar */
+    border-radius: 5px; /* Agregar bordes redondeados a los campos de entrada y el botón de enviar */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Agregar sombra a los campos de entrada y el botón de enviar */
+    font-size: 13px; /* Establecer el tamaño de fuente para los campos de entrada y el botón de enviar */
+}
+
+input[type="submit"] {
+    background-color: #2a62ff; /* Color de fondo del botón de enviar */
+    color: #fff; /* Color del texto del botón de enviar */
+    cursor: pointer; /* Cambiar el cursor del mouse cuando el usuario pase sobre el botón de enviar */
+}
+
+input[type="submit"]:hover {
+    background-color: #92adf9; /* Cambiar el color de fondo del botón de enviar cuando el usuario pase sobre él */
+}
+
+input[type="submit"]:focus {
+    outline: none
+}
+
+input[type="submit"]:active {
+background-color: rgb(181, 181, 181); /* Cambiar el color de fondo del botón de enviar cuando el usuario hace clic en él */
+}
+
+.espacio{
+    height:25px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse:collapse;
+    table-layout: fixed;
+}
+
+.tablaEquipos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse:collapse;
+    table-layout: fixed;
+}
+
+.tablaEquipos-item {
+    text-align: center;
+  }
+  
+  .tablaEquipos-item tr {
+    vertical-align: middle;
+  }
+  
+  
+
+  .wrapper{
+    position: relative; /* Establecer la posición relativa para el div */
+    min-height:calc(100%);
+    width: 94%;
+    margin: 0 auto; /* La palabra clave "auto" hace que se centre horizontalmente */
+    align-items: center;
+}
+
+th{    /*encabezados de tabla*/
+    background: rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    font-weight: 300;
+    padding: 6px;
+    vertical-align: middle;
+    text-align: center;
+}
+th:first-child{
+    text-align: left;
+}
+
+.botonsinestilo {
+    border: none;
+    background-color: transparent;
+    color: #2a62ff;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+th:last-child{
+    text-align: right;
+}
+
+td{   /* texto de las columnas */
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.titulos {
+    max-width: 100%;
+    vertical-align: center;
+    font-size: 125%;
+    color: black;
+}
+
+.titulosHorizontal {
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 125%;
+    color: black;
+  }
+  
+.divEncabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-top: 1px solid #ccc; /* ajustar el color y el ancho de la línea superior */
+    border-bottom: 1px solid #ccc; /* ajustar el color y el ancho de la línea inferior */
+}
+
+.btnEncabezado {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-color: #3f59f0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #3f59f0;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .btnEliminar {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-color: #f03f3f;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #f03f3f;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .btnEncabezado:hover {
+    background-color: #324ce0;
+    color: #fff;
+  }
+
+  .btnEliminar:hover {
+    background-color: #e03232;
+    color: #fff;
+  }
+
+
+.btn-estandar{
+    position: relative;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: #000;
+    cursor: pointer;
+    background:  rgb(218, 218, 218);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.registro-form {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.registro-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+
+.registrobutton {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 13px 20px;
+  display: block;
+  margin: auto;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+
+.registro-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.registro-form h1 {
+  text-align: center;
+  color: #333;
+}
+
+.btnIcono {
+    background: url('ruta/a/tu/icono/clipboard.png') no-repeat;
+    width: 30px; /* ancho del icono */
+    height: 30px; /* alto del icono */
+  }
+  
+  .btnIcono:hover i {
+    color: #fff;
+  }
+
+  .mi-lista-unica {
+    list-style-type: none;
+    padding: 0;
+    width: 94%;
+    margin: 0 auto;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+    margin: 10px 0;
+    padding: 5px;
+    border: 4px solid #77777734;
+    background-color: #85858518;
+    border-radius: 7px;
+  }
+
+  .mi-lista-unica-respuestas {
+    list-style-type: none;
+    padding: 0;
+    width: 94%;
+    margin: 0 auto;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .mi-lista-unica-respuestas li {
+    width: 95%;
+    margin: 10px 0;
+    padding: 5px;
+    border: 4px solid #77777734;
+    background-color: #85858518;
+    border-radius: 7px;
+  }
+  
+
+  .mi-lista {
+    list-style-type: none;
+    padding: 0;
+    width: 94%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "nombre grado"
+      "fecha editar";
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .mi-lista li {
+    margin: 10px 0;
+    padding: 5px;
+    border: 4px solid #77777734;
+    background-color: #85858518;
+    border-radius: 7px;
+
+    box-sizing: border-box;
+    display: grid;
+    grid-template-areas:
+      "nombre grado"
+      "fecha editar";
+  }
+  
+  .mi-lista li .nombre {
+    grid-area: nombre;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .mi-lista li .grado {
+    grid-area: grado;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mi-lista li .fecha {
+    grid-area: fecha;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mi-lista li .editar {
+    grid-area: editar;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  

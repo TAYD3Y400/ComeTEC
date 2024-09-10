@@ -1,0 +1,74 @@
+/* Center container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Center h1 */
+h1 {
+    text-align: center;
+}   
+
+.registerTeam label {
+    font-weight: bold;
+    /* Center size */
+    font-size: 16px;
+    /* Color */
+    color: #000000;
+}
+
+.registerTeam input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Style for dropdown */
+.registerTeam select {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Style for button */
+.registerTeam input[type=submit] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Space between button and dropdown */
+    font-size: 16px;
+    /* Size of button */
+    width: 50%;
+    /* Center button */
+    display: block;
+    margin: 0 auto;
+    /* Adjust to text */
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+/* Hover effect for button */
+.registerTeam input[type=submit]:hover {
+    background-color: #0069d9;
+}

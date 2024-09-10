@@ -1,0 +1,46 @@
+/* Estilos para los botones */
+.boton-container {
+    margin-bottom: 25px; /* Espaciado entre botones */
+}
+
+.boton-container button {
+    display: block; /* Mostrar botones como bloques para la disposición vertical */
+    width: 50%; /* Ancho del botón al 100% del contenedor */
+    padding: 15px; /* Espaciado interno del botón */
+    margin: 0 auto; /* Centrar el botón */
+    text-align: center; /* Centrar texto en el botón */
+    background-color: #4878ff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    /* Bold */
+    font-weight: bold; 
+    font-size: 16px; /* Tamaño de fuente del botón */
+    border: none; /* Eliminar bordes del botón */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima del botón */
+    transition: background-color 0.3s ease-in-out; /* Transición suave para el color de fondo del botón */
+}
+
+/* Styles to nav menu-paginas */
+.menu-paginas {
+    /*background-color: #07055a;*/
+    border: 4px solid #77777734;
+    border-radius: 7px;
+    /* Espacio entre nav menu-paginas y los botones */
+    margin-bottom: 25px;
+}
+
+.boton-container button:first-child {
+    margin-top: 25px;
+}
+
+.boton-container button:last-child {
+    margin-bottom: 25px; /* Espacio entre el último botón y el nav menu-paginas */
+}
+
+.boton-container button:hover {
+    background-color: #1945c0; /* Cambiar el color de fondo del botón al pasar por encima */
+}
+
+/* Send footer to bottom */
+/* html, body {
+    height: 100%;
+} */ 

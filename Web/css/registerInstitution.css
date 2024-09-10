@@ -1,0 +1,82 @@
+/* registro-form class */
+
+.registro-form {
+    width: 50%;
+    height: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.registro-form h1 {
+    margin-top: -30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #333333;
+}
+
+.registro-form .registro-input {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Button registrobutton, center and adjust to text */
+.registro-form .registrobutton {
+    width: 50%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background: #4878ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    /* Center */
+    display: block;
+    margin: 0 auto;
+    /* Adjust to text */
+    text-align: center;
+    /* Space between button and input */
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+.registro-form .registrobutton:hover {
+    background: #3355ff;
+}
+
+/* Input label bold */
+.registro-form label {
+    font-weight: bold;
+    /* Center size */
+    font-size: 16px;
+    /* Color */
+    color: #000000;
+}
+
+/* Email and tel input space */
+.registro-form .registro-input[type="email"],
+.registro-form .registro-input[type="tel"] {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333333;
+}
